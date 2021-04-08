@@ -40,9 +40,12 @@ function outfitFunction () {
   var finalOutput = inputName + "'s OOTD: " + selectedBase + selectedFit + ", " + selectedAccent + "socks, and a " + selectedAcc;
 
   outputText.innerHTML = finalOutput;
+}
 
+function restyle () {
 
   finalOutput.style.fontSize = "2em";
   finalOutput.style.backgroundColor = "#FF5733";
   finalOutput.style.fontFamily = "futura";
+
 }
