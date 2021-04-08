@@ -4,9 +4,9 @@ var outputText;
 var inputElement;
 
 var basic = ["white", "black", "gray", "navy", "ivory"]
-var fit = ["jumper", "suit", "loungewear set"]
+var fit = ["jumper", "suit", "loungewear set", "overalls"]
 var accent = ["dark red", "yellow gold", "forest green", "off white", "royal blue"]
-var acc = ["bucket hat", "silver necklace", "gold chain", "patterned mask"]
+var acc = ["bucket hat", "silver necklace", "gold chain", "patterned mask", "pair of Nikes", "pair of Converse", "tote bag"]
 
 
 window.addEventListener('DOMContentLoaded', function() {
@@ -37,7 +37,7 @@ function outfitFunction () {
   var randomAccIndex = Math.floor(Math.random() * acc.length);
   var selectedAcc = acc[randomAccIndex];
 
-  var finalOutput = inputName + "'s OOTD: " + selectedBase + selectedFit + ", " + selectedAccent + "socks, and " + selectedAcc;
+  var finalOutput = inputName + "'s OOTD: " + selectedBase + selectedFit + ", " + selectedAccent + "socks, and a " + selectedAcc;
 
   outputText.innerHTML= finalOutput;
 
