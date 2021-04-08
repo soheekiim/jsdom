@@ -39,7 +39,7 @@ function outfitFunction () {
 
   var finalOutput = inputName + "'s OOTD: " + selectedBase + selectedFit + ", " + selectedAccent + "socks, and a " + selectedAcc;
 
-  outputText.innerHTML= finalOutput;
+  outputText.innerHTML = finalOutput;
 
 
   finalOutput.style.fontSize = "2em";
